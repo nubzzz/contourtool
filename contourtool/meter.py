@@ -4,8 +4,6 @@ Copyright (C) 2016 Ben Jones <benj2579@gmail.com>
 See the COPYING file for licence information.
 """
 
-from __future__ import print_function
-
 import sys
 import usb
 from . import astm, controlchars, usbutil
@@ -13,7 +11,7 @@ from . import astm, controlchars, usbutil
 
 class NextUSB(object):
     vendor_id = 0x1a79          # Bayer
-    product_id = 0x7410         # Contour Next USB
+    product_id = 0x7800         # Contour Next USB
 
     def __init__(self, args):
         self.debug_categories = set(

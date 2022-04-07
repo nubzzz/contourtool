@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 """
 contourtool.py - read data from Contour Next USB blood glucose meters
@@ -17,8 +17,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
-
-from __future__ import print_function
 
 import sys
 import usb

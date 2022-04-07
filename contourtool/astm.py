@@ -6,11 +6,10 @@ See the COPYING file for licence information.
 
 # TODO: improve this/replace it with a better external library (e.g.
 # python-astm)
-from __future__ import print_function
-
 import re
-import controlchars
 from collections import namedtuple
+
+from . import controlchars
 
 frame_re = re.compile(
     "\x02"
